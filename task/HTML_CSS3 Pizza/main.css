@@ -1,0 +1,18 @@
+table,
+th,
+td {
+  border: 1px black solid;
+}
+
+body {
+  background-image: url(./img/bg/pablo-pacheco-D3Mag4BKqns-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

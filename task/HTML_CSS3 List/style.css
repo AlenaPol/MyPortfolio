@@ -1,0 +1,26 @@
+ul>li:nth-child(2n+3),
+ul>li>ul>li,
+ul>li>ul>li:nth-child(1)>ul>li:nth-child(1) {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+li:nth-child(2n){
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+#italic_style{
+    font-style: italic;
+}
+li:nth-child(2n+3)
+{
+    color: red;
+}
+
+li:nth-child(2n),li:nth-child(-2n+1) {
+    color: blue;
+}
+
+
+.green_bg{
+    background-color: rgba(0, 255, 0, 0.3);
+}

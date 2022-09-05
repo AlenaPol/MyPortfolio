@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+  }
+
+  body{
+    background-image: url(../pic/backgraund/simon-lee-zft-W1kVEhg-unsplash.jpg);
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+  /*HEADER*/
+.header{
+    background-color:#35648E;
+    opacity: 0.95;
+    margin: auto;
+    max-width: 1920px;
+    height: 180px;
+    display: block;
+    /* margin-bottom: 30px; */
+  }
+
+  .header h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #E8E1E1;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  /*TITUL*/
+  .titul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 340px;
+    margin: auto;
+    
+  }
+
+  .titul img{
+    width: 450px;
+    height: 270px;    
+   }
+
+   .titul_nav_left:hover {
+    opacity: 0.5;
+    color: white;
+content: attr(alt);
+display: block;
+font-size: 16px;
+opacity: 70;
+position: absolute;
+z-index: 3;
+   }
+
+   /* .titul_nav_left_1, .titul_nav_left_2, .titul_nav_right_1, .titul_nav_right_2:hover    .titul_text_left_1,.titul_text_left_2,.titul_text_right_1,.titul_text_right_2{
+    opacity: 1;
+   } */
+
+   .titul_nav_left{
+    margin-left: 260px;
+    margin-top: 30px;
+
+   }
+
+   .titul_nav_right{
+    margin-left: 150px;
+    margin-top: 30px;
+   }
+
+   .titul_nav h2
+   /* .titul_text_left_1,.titul_text_left_2,.titul_text_right_1,.titul_text_right_2 */
+   {
+    color: #E8E1E1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 350px;
+   }
+
+ .titul_contact a{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #E8E1E1;
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+ }
+
+ .titul_contact{
+  text-align: center;
+  margin-top: 30px;
+ }
+
+ .titul_contact a:focus{
+  background-color: #fff;
+  color: #000;
+}

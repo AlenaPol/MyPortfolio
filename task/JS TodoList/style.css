@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: rgb(34, 207, 34);
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0 8px;
+}
+
+.modal-wrapper{
+    display: none;
+    background-color: #eee;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.modal-windows{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.main{
+    width: min(90vw, 400px);
+    margin: 50px auto;
+   
+}
+
+.todo{
+    margin-bottom: 20px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.list-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-delete{
+    background-color: rgb(230, 76, 76);
+}
+
+.todo li{
+    font-size: 22px;
+}
+
+.open-modal{
+    margin-top: 10px;
+}

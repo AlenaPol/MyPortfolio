@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    color: #e8e1e1;
+  }
+
+  body{
+    background-image: url(../pic/backgraund/simon-lee-zft-W1kVEhg-unsplash.jpg);
+  }
+
+  /*HEADER*/
+  .header{
+    background-color:#35648E;
+    opacity: 0.95;
+    margin: auto;
+    max-width: 1920px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .header_nav{
+    font-size: 20px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+  }
+  
+  .header_nav:focus{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .header_nav + .header_nav{
+    margin-left: 10px;
+  }

@@ -1,0 +1,213 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Vollkorn', serif;
+font-family: 'Comfortaa', cursive;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #e8e1e1;
+}
+
+body{
+  background-image: url(../pic/backgraund/simon-lee-zft-W1kVEhg-unsplash.jpg);
+
+}
+
+/*HEADER*/
+.header{
+  background-color:#35648E;
+  opacity: 0.95;
+  margin: auto;
+  max-width: 1920px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header_nav{
+  font-size: 20px;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.header_nav:focus{
+  background-color: #fff;
+  color: #000;
+}
+
+.header_nav + .header_nav{
+  margin-left: 10px;
+}
+
+/*NAME*/
+section.name{
+  font-family: 'Vollkorn', serif;
+  position: relative;
+  color: #E8E1E1;
+  background-color:rgba(53, 100, 142, 1);
+  opacity: 0.95;
+  max-width: 1920px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+}
+
+.name_left{  
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.name_left > h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-left: 220px;
+}
+
+.name_left_FD{
+  font-size: 35px;
+  line-height: 70px;
+  margin-left: 40%;
+}
+
+.name_left_WD{
+  font-size: 35px;
+  line-height: 70px;
+  margin-left: 57%;
+}
+
+.name_right{
+  position: absolute;
+  top: 13%;
+  right: 7%;
+  z-index: 3;
+}
+
+.name_right img{
+  width: 75%;
+  border-radius: 8%;
+  /* box-shadow: inset 10px 10px 10px 10px #fff; */
+}
+
+section.hello{
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  height: 270px;
+  background-color:rgba(53, 100, 142, 1);
+  opacity: 0.95;
+  margin-bottom: 50px;
+}
+
+.hello_text{
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  margin-left: 20%;
+  line-height: 50px;
+  color: #E8E1E1;
+}
+
+.hello_text > ul {
+  margin-left: 5%;
+}
+
+
+/*ABOUT ME*/
+
+section.about_me{
+  background-color:rgba(53, 100, 142, 1);
+  opacity: 0.95;
+  color: #E8E1E1;
+  font-size: 22px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  max-width: 1920px;
+  height: 900px;
+}
+
+
+section.about_me h2{
+  font-size: 33px;
+  text-transform: uppercase;
+  font-family: 'Vollkorn', serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.about_me_all_skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_me_charact p{
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.about_me_work p{
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.about_me_work_icons{
+  display: flex;
+  margin-left: 150px;
+}
+
+.about_me_work_icon{
+  width: 7%;
+  height: 7%;
+}
+
+.about_me_work_icon + .about_me_work_icon {
+  margin-left: 50px;
+}
+
+.about_me_education h3{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.about_me_education > ul{
+  margin-left: 150px;
+  margin-right: 100px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.about_me_career h3{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.about_me_career p{
+  margin-left: 150px;
+  margin-right: 100px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+}

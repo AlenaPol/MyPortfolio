@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    color: #e8e1e1;
+  }
+
+  body{
+    background-image: url(../pic/backgraund/simon-lee-zft-W1kVEhg-unsplash.jpg);
+  }
+
+  /*HEADER*/
+  .header{
+    background-color:#35648E;
+    opacity: 0.95;
+    margin: auto;
+    max-width: 1920px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .header_nav{
+    font-size: 20px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+  }
+  
+  .header_nav:focus{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .header_nav + .header_nav{
+    margin-left: 10px;
+  }
+
+  /*NAME*/
+section.name{
+    font-family: 'Vollkorn', serif;
+    position: relative;
+    color: #E8E1E1;
+    background-color:rgba(53, 100, 142, 1);
+    opacity: 0.95;
+    max-width: 1920px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .name_left{  
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  
+  .name_left > h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-left: 220px;
+  }
+  
+  .name_left_FD{
+    font-size: 35px;
+    line-height: 70px;
+    margin-left: 40%;
+  }
+  
+  .name_left_WD{
+    font-size: 35px;
+    line-height: 70px;
+    margin-left: 57%;
+  }
+  
+  .name_right{
+    position: absolute;
+    top: 13%;
+    right: 7%;
+    z-index: 3;
+  }
+  
+  .name_right img{
+    width: 75%;
+    border-radius: 8%;
+    /* box-shadow: inset 10px 10px 10px 10px #fff; */
+  }
+  
+  section.hello{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    height: 250px;
+    background-color:rgba(53, 100, 142, 1);
+    opacity: 0.95;
+    margin-bottom: 50px;
+  }
+  
+  .hello_text{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    margin-left: 20%;
+    line-height: 50px;
+    color: #E8E1E1;
+  }
+  
+  .hello_text > ul {
+    margin-left: 5%;
+  }
