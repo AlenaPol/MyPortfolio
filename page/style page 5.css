@@ -45,3 +45,30 @@
   .header_nav + .header_nav{
     margin-left: 10px;
   }
+
+  /*reveiwes*/
+
+  .reveiwes {
+    color: #E8E1E1;
+    background-color: #35648E;
+    opacity: 0.95;
+    margin: auto;
+    max-width: 1920px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    
+  }
+
+  img{
+    width: 200px;
+  }

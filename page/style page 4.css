@@ -56,21 +56,39 @@ body {
   position: relative;
 }
 
-#projects .projects_slideshow img {
+#projects  img {
   position: absolute;
-  width: 800px;
-  top: 50px;
-  left: 550px;
-
+  width: 900px;
+  height: 570px;
+  top: 12%;
+  left: 28%;
 }
 
-#projects .projects_slideshow img{
+#projects  img{
   display: none;
 }
-/* 
-#projects .projects_slideshow img:first-child{
+
+
+ .slide h3 {
+  font-size: 50px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+  top: 400px;
+  display: none;
+}
+
+.slide:hover .slide_img{
+    opacity: 0.65;
+    transform: scale(1.15);
+}
+
+.slide:hover h3{
   display: block;
-} */
+}
+
 
 /*row prev next*/
 

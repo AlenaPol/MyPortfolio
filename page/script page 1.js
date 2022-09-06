@@ -1,19 +1,33 @@
-const imageLeft_1=document.querySelector('.titul_nav_left_1');
-const imageRight_1=document.querySelector('.titul_nav_right_1');
-const imageLeft_2=document.querySelector('.titul_nav_left_2');
-const imageRight_2=document.querySelector('.titul_nav_right_2');
+const imageLeft=document.querySelectorAll('.titul .titul_img');
 
-const textLeft_1=document.querySelector('.titul_text_left_1');
-const textRight_1=document.querySelector('.titul_text_right_1');
-const textLeft_2=document.querySelector('.titul_text_left_2');
-const textRight_2=document.querySelector('.titul_text_right_2');
-let imageNav=false;
+const buttonNext=document.querySelectorAll('.titul .titul_further');
+const buttonFon=document.querySelectorAll('.titul .titul_box');
 
-imageLeft_1.addEventListener('mouseover',function()
+// let imageNav=false;
+
+imageLeft.addEventListener('mouseover',function()
 {
-    imageNav=!imageNav;
-    textLeft_1.style=imageNav ? 'color:black;' : 'color:red'; 
+    // imageNav=!imageNav;
+    // if (imageNav) {
+        imageLeft.style= 'display:none;';
+        buttonNext.style= 'display:block;';
+        buttonFon.style='display:block;';
+    // }
+    // imageLeft.style=imageNav ? 'color:black;' : 'color:red'; 
 });
+
+imageLeft.addEventListener('mouseup',function()
+{
+    // imageNav=!imageNav;
+    // if (imageNav) {
+        imageLeft.style= 'display:block;';
+        buttonNext.style= 'display:none;';
+        buttonFon.style='display:none;';
+    // }
+    // imageLeft.style=imageNav ? 'color:black;' : 'color:red'; 
+});
+
+
 
 
 
